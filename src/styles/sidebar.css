@@ -1,0 +1,29 @@
+.ps-sidebar-root .css-1ao9180 {
+  overflow: visible !important;
+}
+
+.ps-sidebar-root::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+.ps-sidebar-root::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.ps-sidebar-root::-webkit-scrollbar-thumb {
+  background: #4285f4 !important;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.ps-sidebar-root::-webkit-scrollbar-thumb:hover {
+  background: #1a5ecc !important;
+}

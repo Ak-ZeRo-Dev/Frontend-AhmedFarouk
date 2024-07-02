@@ -1,0 +1,7 @@
+.swiper-slide {
+  transition: opacity 2s ease-in-out !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff5a;
+}

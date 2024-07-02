@@ -1,0 +1,66 @@
+.MuiDataGrid-panel {
+  inset: 0px auto auto auto !important;
+  transform: translate3d(-270px, 156.8px, 0px) !important;
+}
+
+.MuiDataGrid-scrollbar.MuiDataGrid-scrollbar--vertical {
+  right: -10px !important;
+}
+
+.MuiDataGrid-scrollbar.MuiDataGrid-scrollbar--vertical::-webkit-scrollbar {
+  width: 5px !important;
+}
+.MuiDataGrid-scrollbar.MuiDataGrid-scrollbar--horizontal::-webkit-scrollbar {
+  height: 5px !important;
+}
+
+.MuiDataGrid-scrollbar::-webkit-scrollbar-thumb {
+  background: #4285f4 !important;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.MuiDataGrid-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #1a5ecc !important;
+}
+
+@media (max-width: 768px) {
+  .MuiDataGrid-panel {
+    inset: 0px auto auto auto !important;
+    transform: translate3d(-20px, 120%, 0px) !important;
+    width: 90%;
+    -webkit-transform: translate3d(-20px, 120%, 0px) !important;
+    -moz-transform: translate3d(-20px, 120%, 0px) !important;
+    -ms-transform: translate3d(-20px, 120%, 0px) !important;
+    -o-transform: translate3d(-20px, 120%, 0px) !important;
+  }
+  .base-Popper-root
+    .MuiDataGrid-panel
+    .css-n3z9fz-MuiPopper-root-MuiDataGrid-panel {
+    inset: 0px auto auto auto !important;
+    transform: translate3d(-21px, 25%, 0px) !important;
+    width: 90%;
+    -webkit-transform: translate3d(-20px, 120%, 0px) !important;
+    -moz-transform: translate3d(-20px, 120%, 0px) !important;
+    -ms-transform: translate3d(-20px, 120%, 0px) !important;
+    -o-transform: translate3d(-20px, 120%, 0px) !important;
+  }
+  .MuiDataGrid-filterForm {
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+  }
+  .MuiDataGrid-panelContent {
+    width: 100%;
+  }
+  .MuiFormControl-root.MuiDataGrid-filterFormOperatorInput,
+  .MuiFormControl-root.MuiDataGrid-filterFormColumnInput,
+  .MuiFormControl-root.MuiDataGrid-filterFormValueInput {
+    width: 100%;
+  }
+}

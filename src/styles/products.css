@@ -1,0 +1,6 @@
+.swiper-button-prev,
+.swiper-button-next {
+  --swiper-navigation-size: 25px !important;
+  color: #ffffff5a;
+  font-size: var(--swiper-navigation-size);
+}

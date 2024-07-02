@@ -1,0 +1,13 @@
+.react-hot-toast {
+  direction: rtl;
+}
+
+.react-hot-toast .react-hot-toast-icon {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.react-hot-toast .react-hot-toast-body {
+  direction: rtl;
+  text-align: right;
+}
